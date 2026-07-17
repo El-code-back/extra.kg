@@ -1,28 +1,27 @@
 @import "tailwindcss";
 
 @theme {
-  --font-serif: "Playfair Display", Georgia, serif;
-  --font-sans: "Inter", system-ui, sans-serif;
-  --color-brand-dark: #060b18;
-  --color-brand-blue: #0b132b;
-  --color-brand-card: #111a36;
-  --color-brand-accent: #3b82f6;
-  --color-brand-gray: #94a3b8;
-  --color-brand-light: #f8fafc;
+  --font-serif: "Onest", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --color-brand-bg: #223047;
+  --color-brand-text: #FAF7F0;
+  --color-brand-action: #75A47B;
+  --color-brand-sky: #C8D8DE;
 }
 
 body {
-  background-color: var(--color-brand-light);
-  color: #1e293b;
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-text);
   font-family: var(--font-sans);
   margin: 0;
   overflow-x: hidden;
 }
 
-.font-serif-elegant {
+/* Custom fonts setup matching Onest */
+.font-onest {
   font-family: var(--font-serif);
 }
 
-.font-sans-clean {
+.font-inter {
   font-family: var(--font-sans);
 }
